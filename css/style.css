@@ -265,3 +265,90 @@ a{
 	background-repeat: no-repeat;
 	padding: 100px 0px;
 }
+.deal{
+	width: 100%;
+	background-image: url(dealimg.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 100px 0px;
+}
+.deal-content{
+	display: flex;
+}
+.deal-left, .deal-right{
+	flex-basis: 50%;
+}
+.deal-right h5{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    color: #82ae46;
+    font-weight: 500;
+}
+.deal-right h2{
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+.deal-right p{
+    position: relative;
+    font-size: 15px;
+    font-weight: 400;
+    color: #808080;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 28px;
+}
+.deal-right h3{
+    color: #82ae46;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Lora",Georgia,serif;
+    margin-bottom: 20px;
+}
+.deal-right .price span:first-child{
+    color: #00000080;
+    margin-bottom: 20px;
+    font-family: "Poppins",Arial,sans-serif;
+    font-weight: 600;
+}
+.deal-right .price span{
+	color: #82ae46;
+	font-family: "Poppins",Arial,sans-serif;
+    font-weight: 600;
+}
+.clock {
+    text-align: center;
+	display: flex;
+	margin-top: 50px;
+	
+}
+
+#a1,#a2, #a3, #a4 {
+    font-size: 48px;
+    margin-bottom: 10px;
+	margin-left: 25px;
+	font-size: 80px;
+	color: #82ae46;
+	font-weight: bolder;
+
+}
+.clocks {
+    text-align: center;
+	display: flex;
+	
+}
+
+#a5,#a6, #a7, #a8 {
+    font-size: 48px;
+    margin-bottom: 10px;
+	margin-left: 90px;
+	font-size: 25px;
+	color: #000000;
+	font-weight: bolder;
+
+}
