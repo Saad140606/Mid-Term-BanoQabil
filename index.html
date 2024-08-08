@@ -378,7 +378,478 @@
     		</div>
     	</div>
     </section>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <style>
+/*   
+    body{
+      font-family: "Poppins", Arial, sans-serif;
+      font-weight: 400;
+    } */
+    *{
+      font-family: Arial, Helvetica, sans-serif;
+      
+    }
+    .section{
+      
+      padding: 6em 0;
+    }
+    .container-100{
+      width: 100%;
+      background-color: #fff;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .subheading{
+      display: flex;
+      justify-content: center;
+      font-size: 18px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-family: "Lora", Georgia, serif;
+      font-style: italic;
+      color: #82ae46;
+    }
+    .h{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 40px;
+      display: flex;
+      justify-content: center;
+    }
+    .para{
+      color: rgb(116, 115, 115);
+      display: flex;
+      justify-content: center;
+      font-size: 15px;
+      text-align: center;
+      line-height: 1.8;
+    }
+    .image-100{
+      border-radius: 50% ;
+      width: 100px;
+     
+  
+      }
+    .main-image-500{
+      display: flex;
+      justify-content: space-around;
+     
+    } 
     
+    .partner-1 {
+      display: flex;
+  justify-content: space-evenly;
+    }
+  .h3 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+      font-weight: 500;
+      color: black;
+  }
+  .space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(65, 65, 65);
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+  .Information{
+    justify-content: space-around;
+    display: flex;
+    padding-left: 1.5rem;
+    margin-bottom: 3rem;
+    margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      unicode-bidi: isolate;
+      text-align: center;
+      color: rgb(116, 115, 115);
+      font-family: "Poppins", Arial, sans-serif;
+    
+  }
+   .container-1{
+    background-color: #f7f6f2;
+    justify-content: space-evenly;
+    display: flex;
+    height: 10rem;
+  } 
+  
+  .submit-1{
+    border-left: 1px solid #82ae46;
+    background: #82ae46;
+    font-size: 12px;
+    color: #fff;
+    
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: inherit;
+    line-height: inherit;
+    padding-inline: 6px;
+    border: 1px solid transparent;
+  }
+  .submit-2{
+    background-color: #fff;
+  } 
+  p.Subscribe{
+    font: italic;
+    font-size: 500px;
+  }
+  .Names{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: "Poppins", Arial, sans-serif;
+  }
+  .work{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  a {
+    color: #82ae46;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .ending{
+    text-align: center;
+    justify-content: center;
+    color: rgb(65, 65, 65);
+    font-family: "Poppins", Arial, sans-serif;
+  }
+  .Subscribe-form{
+    background: #fff !important;
+      border: 1px solid transparent;
+      color: black !important;
+      font-size: 14px;
+      font-weight: 300;
+      -webkit-box-align: center;
+      
+  }
+  .submit-2{
+    height: 52px;
+    box-shadow: none;
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    line-height: 1.5;
+    font-family: inherit;
+    text-align: start;
+    line-height: inherit;
+    background: #fff !important;
+  border: 1px solid transparent;
+      color: black !important;
+  
+   
+  }
+  .submit-1{
+    border-left: 1px solid #82ae46;
+      color: #fff !important;
+      border-radius: 0;
+      font-size: 12px;
+      background: #82ae46 !important;
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+      
+      line-height: inherit;
+      font-family: inherit;
+      margin: 0;
+      white-space: pre;
+      padding-block: 1px;
+      padding-inline: 6px;  
+        user-select: none;
+      align-items: flex-start;
+      text-align: center;
+      cursor: default;
+      border: 1px solid transparent;
+      box-sizing: border-box;
+     
+  }
+  .line{
+    margin-top: 4% ;
+    font-size: 25px;
+  }
+  .line2{
+    margin-top: 7%;
+    margin-left: -37%;
+    color: rgb(116, 115, 115);
+  }
+  .logos{
+    margin-right: 1%;
+    margin-top: 3rem;
+    display: flex;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+  text-align: left;
+  color: black;
+  text-decoration: none;
+  }
+  .https{
+  text-decoration: none;
+  }
+  .Name-1{
+    margin-top: 4% ;
+    font-size: 18px;
+    margin-left: 7%;
+    margin-bottom: 0;
+    font-weight: 400;
+  }
+  .work-1{
+    margin-top: 7%;
+    margin-left: -19.4%;
+    font-size: 12px;
+    
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: rgb(65, 65, 65);
+  }
+  .Name-2{
+    margin-top: 4% ;
+    font-size: 18px;
+    margin-left: 10%;
+    margin-bottom: 0;
+    font-weight: 400;
+  }
+  .work-2{
+    margin-top: 7%;
+    margin-left: -21%;
+    font-size: 12px;
+    font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: rgb(65, 65, 65);
+  }
+  .Name-3{
+    margin-top: 4% ;
+    font-size: 18px;
+    margin-left: 7%;
+    margin-bottom: 0;
+    font-weight: 400;
+  }
+  .work-3{
+    margin-top: 7%;
+    margin-left: -21%;
+    font-size: 12px;
+    font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: rgb(65, 65, 65);
+  }
+  .ending-1{
+    
+    font-size: 18px;
+    margin-bottom: 20px;
+      font-size: 11px;
+      font-weight: 500;
+  
+  }
+  .paragraph-1{
+    margin-top: 7%;
+    margin-left: -14%;
+    font-size: 14px;
+    line-height: 1.4;
+    justify-content: space-evenly;
+    color: rgb(65, 65, 65);
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+  .ending-2{
+    
+    font-size: 18px;
+    margin-bottom: 20px;
+      font-size: 11px;
+      font-weight: 500;
+  }
+  .paragraph-2{
+    margin-top: 7%;
+    margin-left: -11%;
+    font-size: 14px;
+    font-size: 14px;
+    line-height: 1.4;
+    justify-content: space-evenly;
+    color: rgb(65, 65, 65);
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+  .ending-3{
+   
+    font-size: 18px;
+    margin-bottom: 20px;
+      font-size: 11px;
+      font-weight: 500;
+  }
+  .paragraph-3{
+    margin-top: 7%;
+    margin-left: -11%;
+    font-size: 14px;
+    font-size: 14px;
+    line-height: 1.4;
+    justify-content: space-evenly;
+    color: rgb(65, 65, 65);
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+  .ending-4{
+   
+    font-size: 18px;
+    margin-bottom: 20px;
+      font-size: 11px;
+      font-weight: 500;
+  }
+  .paragraph-4{
+    margin-top: 7%;
+    margin-left: -19%;
+    font-size: 14px;
+    font-size: 14px;
+    line-height: 1.4;
+    justify-content: space-evenly;
+    color: rgb(65, 65, 65);
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+  .Info-1{
+    border-left: 1px solid #e6e6e6;
+    position: relative;
+    padding-left: 1.5rem;
+    line-height: 1.8;
+    
+  }
+  .Info-2{
+    border-left: 1px solid #e6e6e6;
+    position: relative;
+    padding-left: 1.5rem;
+    line-height: 1.8;
+  }
+  .Info-3{
+    border-left: 1px solid #e6e6e6;
+      position: relative;
+      padding-left: 1.5rem;
+      line-height: 1.8;
+  }
+  </style>
+  <body>
+    
+     <div class="container-100">
+  
+       <section class="section">
+         <div class="row justify-content-center mb-5 pb-3">
+           <div class="col-md-7 heading-section ftco-animate text-center">
+             <span class="subheading">Testimony</span>
+             <h2 class="h">Our satisfied customer says</h2>
+             <p class="para">Far far away, behind the word mountains, far from the countries Vokalia and<br>
+              Consonantia, there live the blind texts. Separated they live in</p>
+            </div>
+          </div>
+          <br>
+          <br><br>
+            <div class="main-image-500">
+              
+  
+              <img src="./person_1.jpg" alt="" class="image-100" >
+                <img src="./person_1.jpg" alt="" class="image-100" >
+                <img src="./person_2.jpg" alt="" class="image-100" > </div>
+                <br>
+                <div class="Information"><p class="Info-1">Far far away, behind the word <br> mountains, far from the countries <br> Vokalia and  Consonantia,
+                  there live <br> the blind texts. </p>
+                  
+                  <p class="Info-2">Far far away, behind the word <br> mountains, far from the countries <br> Vokalia and  Consonantia,
+                    there live <br> the blind texts.</p>
+                    <p class="Info-3">Far far away, behind the word <br> mountains, far from the countries <br> Vokalia and  Consonantia,
+                      there live <br> the blind texts. 
+        </p>
+       </div> 
+       <div class="Names">
+        <p><div class="Name-1" >Garreth Smith</div><br>
+      <div class="work-1"> 
+        SYSTEM ANALYST
+      </div></p>
+      <p><div class="Name-2" >Garreth Smith</div><br>
+        <div class="work-2"> 
+          MARKETING MANAGER
+        </div></p>
+        <p><div class="Name-3" >Garreth Smith</div><br>
+          <div class="work-3"> 
+            INTERFACE DESIGNER
+          </div></p>
+     
+       </div>
+        <br><br><br><br><br>
+          <hr>
+            <br><br><br><br>
+              <a href="#" class="partner-1">
+                <img src="./partner-1.png" alt=""  width="168" height="64">
+                
+                <img src="./partner-2.png" alt="" width="168" height="64">
+  
+                <img src="./partner-3.png" alt=""width="168" height="64">
+                
+                <img src="./partner-4.png" alt="" width="168" height="64">
+                
+                <img src="./partner-5.png" alt="" width="168" height="64">
+              </a>
+              
+              
+            </div>
+              <div class="container-1">
+                <p> <div class="line">Subsribe to our Newsletter</div> <br>
+                  <div class="line2">Get e-mail updates about our latest shops and special offers.</div></p>
+                  <p><form action="" class="Subsribe-form">
+                    <br>
+                    <input type="text" placeholder="Enter email address" class="submit-2">
+                    <input type="submit" value="Subsribe" class="submit-1"  >
+                  </form></p> 
+                </div>
+                <div class="container">
+  
+                  <br><br><br>
+                  <div class="h3">
+                    <p><div class="ending-1" ><h2>Vegefoods</h2></div><br>
+                      <div class="paragraph-1"> 
+                        Far far away, behind the word <br> mountains, far from the <br> countries Vokalia and <br>Consonantia. <br><br><br>
+                        <a href="#" class="logos">
+                        <i class='bx bxl-twitter'></i> &nbsp;&nbsp;
+                        <i class='bx bxl-facebook'></i>&nbsp;&nbsp;
+                        <i class='bx bxl-instagram'></i>
+                        </a>
+                      </div></p>
+                      <p><div class="ending-2" ><h2>Menu</h2></div><br>
+                        <div class="paragraph-2"> 
+                          Shop <br><br>About <br><br>Journal <br><br>Contact Us <br>
+                        </div></p>
+                        <p><div class="ending-3" ><h2>Help</h2></div><br>
+                          <div class="paragraph-3"> 
+                            Shipping Information  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FAQs <br><br>Returns & Exchange &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact <br><br>Terms & Conditions <br><br> Privacy Policy
+                          </div></p>
+                          <p><div class="ending-4" ><h2>Have a Questions?</h2></div><br>
+                            <div class="paragraph-4"> 
+                              <i class='bx bx-current-location'></i>&nbsp;&nbsp;203 Fake St. Mountain <br>View, San Francisco,<br> California, USA <br><br> <i class='bx bxs-phone'></i>&nbsp;&nbsp; +2 392 3929 210 <br><br>	<i class='bx bxs-envelope'></i>&nbsp;&nbsp;info@yourdomain.com
+                            </div></p>
+                  </div>   
+        </div>
+          <br><br><br>          
+       
+          <p class="ending"><script>document.write(new Date().getFullYear());</script>
+            Copyright ©2024 All rights reserved | This template is made with <i class='bx bxs-heart'></i><i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" class="https">Colorlib</a>
+        </p>
+        <br><br><br><br>
+      </div>
 
   </body>
 </html>
